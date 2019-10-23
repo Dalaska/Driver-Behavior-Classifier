@@ -1,5 +1,8 @@
 # Driver Behavior Classifer
-## Instructions:
+## Overview
+This project examines estimating vehicle rolling resistance and aerodynamic drag  using model-based approach with a supervisory data extraction scheme. The estimator uses signals from the standard vehicle CAN bus and accelerometer sensor to determine vehicle rolling resistance and aerodynamic drag coefficient on-the-fly. A supervisor monitors vehicle motion and extracts data only during events with high signal to noise ratio.
+
+## Usage
 Start from one the four Matlab scripts:
 
 1. Main1_Demo.m (starter code)	 
