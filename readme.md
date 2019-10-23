@@ -1,7 +1,7 @@
 # Driver Behavior Classifer
 ## Overview
 
-The driver behavior can substantially affect the real-world fuel economy of a vehicle. Evaluating the driver behavior in real-time can provide feedbacks to the drivers to enhance their awareness on eco-driving, and further, enable the powertrain control schemes to adapt automatically to the current driving style. 
+Driver behavior can substantially affect the real-world fuel economy of a vehicle. Evaluating the driver behavior in real-time can provide feedbacks to the drivers to enhance their awareness on eco-driving, and further, enable the powertrain control schemes to adapt automatically to the current driving style. 
 
 In this project aims to use a microtrip-based driver scoring algorithm to reduce the influence of various driving cycles. The algorithm uses the signals from the CAN bus. To further improves the computational and memory efficiency, the algorithm converts the time-series driving data into events represented by symbolic data. 
 
