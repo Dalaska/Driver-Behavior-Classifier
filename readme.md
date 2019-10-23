@@ -8,7 +8,6 @@ Start from one the four Matlab scripts:
     * Separate microtrips	 
     * Extract features
 
-
 2. Main2_Parse.m
     * Parse raw data into feature vectors
 
@@ -20,3 +19,10 @@ Start from one the four Matlab scripts:
 	* Test the classifier on micro trips
 	*  Test the classifier on an entire trip and show the driver score
 
+*Illustration of a microtrip*
+
+![microtrip](/img/microtrip.png)
+
+*Symbolic representation of a driving cycle*
+
+![symbolic](/img/symbolic.png)
