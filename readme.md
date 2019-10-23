@@ -1,6 +1,10 @@
 # Driver Behavior Classifer
 ## Overview
-This project examines estimating vehicle rolling resistance and aerodynamic drag  using model-based approach with a supervisory data extraction scheme. The estimator uses signals from the standard vehicle CAN bus and accelerometer sensor to determine vehicle rolling resistance and aerodynamic drag coefficient on-the-fly. A supervisor monitors vehicle motion and extracts data only during events with high signal to noise ratio.
+
+The driver behavior can substantially affect the real-world fuel economy of a vehicle. Evaluating the driver behavior in real-time can provide feedbacks to the drivers to enhance their awareness on eco-driving, and further, enable the powertrain control schemes to adapt automatically to the current driving style. 
+
+In this project aims to use a microtrip-based driver scoring algorithm to reduce the influence of various driving cycles. The algorithm uses the signals from the CAN bus. To further improves the computational and memory efficiency, the algorithm converts the time-series driving data into events represented by symbolic data. 
+
 
 ## Usage
 Start from one the four Matlab scripts:
